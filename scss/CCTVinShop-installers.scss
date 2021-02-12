@@ -10,4 +10,26 @@
 
 .line-separator {
     @include line-separator;
+    margin-bottom: 46px;
+}
+
+.wrapper-blok-icon-gray {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blok-icon-gray-text {
+    max-width: 721px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blok-icon-gray-text>p {
+    @include text-main;
+    margin: 0 0 36px 0;
+}
+
+.blok-icon-gray-text-main {
+    @include text-uppercase-bolt;
 }

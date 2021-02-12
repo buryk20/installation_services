@@ -19,17 +19,44 @@
     margin-right: auto;
 }
 
-.blok-icon-gray-text {
+.blok-gray-text {
     max-width: 721px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.blok-icon-gray-text>p {
+.blok-gray-text>p {
     @include text-main;
     margin: 0 0 36px 0;
 }
 
 .blok-icon-gray-text-main {
     @include text-uppercase-bolt;
+    margin-bottom: 201px;
+    margin-top: 0;
+}
+
+.blok-icon-gray-text {
+    @include box-img-grey;
+    @include text-main;
+}
+
+.blok-icon-gray-text>p {
+    margin: 0;
+}
+
+.blok-icon-gray-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blok-icon-gray {
+    position: absolute;
+    top: -153px;
+}
+
+.blok-icon-gray-posicion {
+    display: flex;
 }

@@ -43,13 +43,13 @@
   margin-right: auto;
 }
 
-.blok-icon-gray-text {
+.blok-gray-text {
   max-width: 721px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.blok-icon-gray-text > p {
+.blok-gray-text > p {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -61,5 +61,48 @@
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+  margin-bottom: 201px;
+  margin-top: 0;
+}
+
+.blok-icon-gray-text {
+  max-width: 262px;
+  padding: 21px 22px;
+  border: 1px solid #D1D1D1;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blok-icon-gray-text > p {
+  margin: 0;
+}
+
+.blok-icon-gray-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blok-icon-gray {
+  position: absolute;
+  top: -153px;
+}
+
+.blok-icon-gray-posicion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=CCTVinShop-installers.css.map */

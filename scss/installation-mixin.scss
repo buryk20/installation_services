@@ -72,9 +72,10 @@
 
 @mixin box-img-grey {
     max-width: 262px;
-    padding: 31px 22px;
+    padding: 21px 22px;
     border: 1px solid #D1D1D1;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 @mixin box-img-white {
@@ -82,6 +83,7 @@
     padding: 31px 22px;
     border: 1px solid #D1D1D1;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 @mixin box-shadow {
@@ -89,6 +91,7 @@
     border: 1px solid #ffffff;
     border-radius: 8px;
     box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 @mixin line-separator {

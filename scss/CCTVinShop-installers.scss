@@ -1,0 +1,13 @@
+@import "installation-mixin.scss";
+.background-wrapper-CCTVinShop {
+    @include background-wrapper-banner-head;
+    background-image: url("../CCTVinShop/img/CCTVinShop-banner-back.jpg");
+}
+
+.title-text-banner-CCTVinShop {
+    @include text-banner-head;
+}
+
+.line-separator {
+    @include line-separator;
+}

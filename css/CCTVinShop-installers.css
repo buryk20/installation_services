@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: Roboto;
   src: url("../CCTVinShop/fonts/Roboto.ttf");
@@ -7,7 +12,6 @@
   background-repeat: no-repeat;
   height: 450px;
   position: relative;
-  padding-left: 15%;
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
@@ -29,6 +33,12 @@
   background: #0000006e;
 }
 
+.background-wrapper-position-CCTVinShop {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .line-separator {
   max-width: 1440px;
   padding: 0 16px;
@@ -40,15 +50,16 @@
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 85px;
 }
 
-.blok-gray-text {
+.blok-text {
   max-width: 721px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.blok-gray-text > p {
+.blok-text > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -60,6 +71,7 @@
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+  text-transform: uppercase;
   margin-bottom: 201px;
   margin-top: 0;
 }
@@ -76,10 +88,6 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
-}
-
-.blok-icon-gray-text > p {
-  margin: 0;
 }
 
 .blok-icon-gray-wrapper {
@@ -102,4 +110,138 @@
 
 .blok-icon-gray-wrapper + .blok-icon-gray-wrapper {
   margin-right: 10%;
+}
+
+.professional-installation-through-block-wrapper {
+  margin-bottom: 40px;
+  padding-top: 139px;
+  background-color: #859289;
+}
+
+.professional-installation-text-heading {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.professional-installation-text-position > p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  max-width: 721px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.professional-installation-text-position {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 139px;
+}
+
+.btn-installation {
+  color: #ffffff;
+  background-color: #159822;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  padding: 8px 13px;
+  max-width: 173px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #159822;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+  margin: 0;
+}
+
+.btn-installation:hover {
+  background-color: #287231;
+}
+
+.complete-wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blok-text-description {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  max-width: 1013px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.complete-wrapper > h4 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 645px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31px;
+}
+
+.complete-img-wrapper {
+  max-width: 683px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.key-areas-wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.key-areas-text-main {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 194px;
+}
+
+.blok-icon-white-text {
+  width: 212px;
+  padding: 23px 13px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blok-icon-white-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blok-icon-white-wrapper + .blok-icon-white-wrapper {
+  margin-right: 95px;
+}
+
+.blok-icon-white-position {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
 }

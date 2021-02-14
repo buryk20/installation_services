@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @import "installation-mixin.scss";
 .background-wrapper-CCTVinShop {
   @include background-wrapper-banner-head;
@@ -8,24 +13,27 @@
   @include text-banner-head;
 }
 
+.background-wrapper-position-CCTVinShop {
+  @include content-wrapper;
+}
+
 .line-separator {
   @include line-separator;
   margin-bottom: 46px;
 }
 
 .wrapper-blok-icon-gray {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  @include content-wrapper;
+  margin-bottom: 85px;
 }
 
-.blok-gray-text {
+.blok-text {
   max-width: 721px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.blok-gray-text > p {
+.blok-text > p {
   @include text-main;
   margin: 0 0 36px 0;
 }
@@ -39,10 +47,6 @@
 .blok-icon-gray-text {
   @include box-img-grey;
   @include text-main;
-}
-
-.blok-icon-gray-text > p {
-  margin: 0;
 }
 
 .blok-icon-gray-wrapper {
@@ -65,4 +69,95 @@
 
 .blok-icon-gray-wrapper + .blok-icon-gray-wrapper {
   margin-right: 10%;
+}
+
+.professional-installation-through-block-wrapper {
+  margin-bottom: 40px;
+  padding-top: 139px;
+  background-color: #859289;
+}
+
+.professional-installation-text-heading {
+  @include text-uppercase-bolt;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.professional-installation-text-position > p {
+  @include text-main;
+  max-width: 721px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.professional-installation-text-position {
+  @include content-wrapper;
+  padding-bottom: 139px;
+}
+
+.btn-installation {
+  @include btn-installation;
+  margin: 0;
+}
+
+.btn-installation:hover {
+  background-color: #287231;
+}
+
+.complete-wrapper {
+  @include content-wrapper;
+}
+
+.blok-text-description {
+  @include text-main;
+  max-width: 1013px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.complete-wrapper > h4 {
+  @include text-uppercase-bolt;
+  max-width: 645px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31px;
+}
+
+.complete-img-wrapper {
+  max-width: 683px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.key-areas-wrapper {
+  @include content-wrapper;
+}
+
+.key-areas-text-main {
+  @include text-uppercase-bolt;
+  margin-bottom: 194px;
+}
+
+.blok-icon-white-text {
+  @include box-img-white;
+  @include text-main;
+}
+
+.blok-icon-white-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blok-icon-white-wrapper + .blok-icon-white-wrapper {
+  margin-right: 95px;
+}
+
+.blok-icon-white-position {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
 }

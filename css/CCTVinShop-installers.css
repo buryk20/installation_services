@@ -17,14 +17,13 @@
 .title-text-banner-CCTVinShop {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   max-width: 40%;
   margin: 0;
   padding: 20px;
   color: #ffffff;
   text-align: left;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 36px;
   text-transform: uppercase;
   background: #0000006e;
@@ -50,14 +49,14 @@
 }
 
 .blok-gray-text > p {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
   margin: 0 0 36px 0;
 }
 
 .blok-icon-gray-text-main {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -67,12 +66,14 @@
 
 .blok-icon-gray-text {
   max-width: 262px;
-  padding: 21px 22px;
-  border: 1px solid #D1D1D1;
+  min-height: 80px;
+  padding: 21px 29px;
+  border: 1px solid #d1d1d1;
   border-radius: 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -83,16 +84,9 @@
 
 .blok-icon-gray-wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blok-icon-gray {
@@ -100,9 +94,12 @@
   top: -153px;
 }
 
-.blok-icon-gray-posicion {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.blok-icon-gray-position {
   display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
-/*# sourceMappingURL=CCTVinShop-installers.css.map */
+
+.blok-icon-gray-wrapper + .blok-icon-gray-wrapper {
+  margin-right: 10%;
+}

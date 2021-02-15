@@ -140,6 +140,7 @@
 
 .key-areas-wrapper {
     @include content-wrapper;
+    margin-bottom: 79px;
 }
 
 .key-areas-text-main {
@@ -168,4 +169,46 @@
     justify-content: center;
     flex-direction: row-reverse;
     margin-bottom: 40px;
+}
+
+.installation-price-wrapper {
+    @include content-wrapper;
+}
+
+.complete-price-wrapper {
+    @include box-shadow;
+}
+
+.complete-price-img {
+    display: flex;
+    position: relative;
+}
+
+.complete-price-img-position {
+    position: absolute;
+    left: 27px;
+    top: -50px;
+}
+
+.complete-price-img-text {
+    padding-left: 256px;
+}
+
+.complete-price-img-text-bolt {
+    @include text-main-bolt;
+    margin-bottom: 10px;
+    padding-top: 34px;
+    text-align: left;
+}
+
+.complete-price-img-text-gray {
+    @include text-price-gray;
+}
+
+.complete-price {
+    @include text-price-green;
+}
+
+.complete-price>span {
+    color: #000000;
 }

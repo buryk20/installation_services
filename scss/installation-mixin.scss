@@ -1,128 +1,128 @@
 @font-face {
-  font-family: Roboto;
-  src: url("../CCTVinShop/fonts/Roboto.ttf");
+    font-family: Roboto;
+    src: url("../CCTVinShop/fonts/Roboto.ttf");
 }
 
 @mixin content-wrapper {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @mixin text-banner-head {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  max-width: 40%;
-  margin: 0;
-  padding: 20px;
-  color: #ffffff;
-  text-align: left;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 36px;
-  text-transform: uppercase;
-  background: #0000006e;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 40%;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: #0000006e;
 }
 
 @mixin text-main {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  text-align: center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 
 @mixin text-uppercase-bolt {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  text-transform: uppercase;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @mixin text-main-bolt {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  text-align: center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
 
 @mixin text-price-gray {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #8a8a8a;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8a8a8a;
 }
 
 @mixin text-price-green {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #159822;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #159822;
 }
 
 @mixin text-price-grn {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  color: #363636;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #363636;
 }
 
 @mixin background-wrapper-banner-head {
-  background-repeat: no-repeat;
-  height: 450px;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 60px;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
 }
 
 @mixin box-img-grey {
-  max-width: 262px;
-  min-height: 80px;
-  padding: 21px 29px;
-  border: 1px solid #d1d1d1;
-  border-radius: 8px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
+    max-width: 262px;
+    min-height: 80px;
+    padding: 21px 29px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 @mixin box-img-white {
-  width: 212px;
-  padding: 23px 13px;
-  border: 1px solid #d1d1d1;
-  border-radius: 8px;
-  box-sizing: border-box;
+    width: 212px;
+    padding: 23px 13px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
 @mixin box-shadow {
-  max-width: 712px;
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+    max-width: 712px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 @mixin line-separator {
-  max-width: 1440px;
-  padding: 0 16px;
-  border-top: 1px solid #d1d1d1;
+    max-width: 1440px;
+    padding: 0 16px;
+    border-top: 1px solid #d1d1d1;
 }
 
 @mixin btn-installation {
-  color: #ffffff;
-  background-color: #159822;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  padding: 8px 13px;
-  max-width: 173px;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 1px solid #159822;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  cursor: pointer;
+    color: #ffffff;
+    background-color: #159822;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    padding: 8px 13px;
+    max-width: 173px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #159822;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
 }

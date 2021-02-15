@@ -1,163 +1,171 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 @import "installation-mixin.scss";
 .background-wrapper-CCTVinShop {
-  @include background-wrapper-banner-head;
-  background-image: url("../CCTVinShop/img/CCTVinShop-banner-back.jpg");
+    @include background-wrapper-banner-head;
+    background-image: url("../CCTVinShop/img/CCTVinShop-banner-back.jpg");
 }
 
 .title-text-banner-CCTVinShop {
-  @include text-banner-head;
+    @include text-banner-head;
 }
 
 .background-wrapper-position-CCTVinShop {
-  @include content-wrapper;
+    @include content-wrapper;
 }
 
 .line-separator {
-  @include line-separator;
-  margin-bottom: 46px;
+    @include line-separator;
+    margin-bottom: 46px;
 }
 
 .wrapper-blok-icon-gray {
-  @include content-wrapper;
-  margin-bottom: 85px;
+    @include content-wrapper;
+    margin-bottom: 85px;
 }
 
 .blok-text {
-  max-width: 721px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 721px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.blok-text > p {
-  @include text-main;
-  margin: 0 0 36px 0;
+.blok-text>p {
+    @include text-main;
+    margin: 0 0 36px 0;
 }
 
 .blok-icon-gray-text-main {
-  @include text-uppercase-bolt;
-  margin-bottom: 201px;
-  margin-top: 0;
+    @include text-uppercase-bolt;
+    margin-bottom: 201px;
+    margin-top: 0;
 }
 
 .blok-icon-gray-text {
-  @include box-img-grey;
-  @include text-main;
+    @include box-img-grey;
+    @include text-main;
 }
 
 .blok-icon-gray-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .blok-icon-gray {
-  position: absolute;
-  top: -153px;
+    position: absolute;
+    top: -153px;
 }
 
 .blok-icon-gray-position {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
-.blok-icon-gray-wrapper + .blok-icon-gray-wrapper {
-  margin-right: 10%;
+.blok-icon-gray-wrapper+.blok-icon-gray-wrapper {
+    margin-right: 10%;
 }
 
 .professional-installation-through-block-wrapper {
-  margin-bottom: 40px;
-  padding-top: 139px;
-  background-color: #859289;
+    margin-bottom: 40px;
+    padding-top: 139px;
+    background-image: url('../CCTVinShop/img/adjuster-CCTV-shop.jpg');
+    background-position: center;
+    background-color: #859289;
 }
 
 .professional-installation-text-heading {
-  @include text-uppercase-bolt;
-  text-align: left;
-  margin-bottom: 40px;
+    @include text-uppercase-bolt;
+    text-align: left;
+    margin-bottom: 40px;
 }
-.professional-installation-text-position > p {
-  @include text-main;
-  max-width: 721px;
-  margin-bottom: 40px;
-  text-align: left;
+
+.professional-installation-text-position>p {
+    @include text-main;
+    max-width: 721px;
+    margin-bottom: 40px;
+    text-align: left;
 }
 
 .professional-installation-text-position {
-  @include content-wrapper;
-  padding-bottom: 139px;
+    @include content-wrapper;
+    padding-bottom: 139px;
 }
 
 .btn-installation {
-  @include btn-installation;
-  margin: 0;
+    @include btn-installation;
+    margin: 0;
 }
 
 .btn-installation:hover {
-  background-color: #287231;
+    background-color: #287231;
 }
 
 .complete-wrapper {
-  @include content-wrapper;
+    @include content-wrapper;
 }
 
 .blok-text-description {
-  @include text-main;
-  max-width: 1013px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+    @include text-main;
+    max-width: 1013px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
 
-.complete-wrapper > h4 {
-  @include text-uppercase-bolt;
-  max-width: 645px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 31px;
+.blok-text-complete>p {
+    @include text-main;
+    margin-bottom: 40px;
+}
+
+.complete-wrapper>h4 {
+    @include text-uppercase-bolt;
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 31px;
 }
 
 .complete-img-wrapper {
-  max-width: 683px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
+    max-width: 683px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .key-areas-wrapper {
-  @include content-wrapper;
+    @include content-wrapper;
 }
 
 .key-areas-text-main {
-  @include text-uppercase-bolt;
-  margin-bottom: 194px;
+    @include text-uppercase-bolt;
+    margin-bottom: 194px;
 }
 
 .blok-icon-white-text {
-  @include box-img-white;
-  @include text-main;
+    @include box-img-white;
+    @include text-main;
 }
 
 .blok-icon-white-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.blok-icon-white-wrapper + .blok-icon-white-wrapper {
-  margin-right: 95px;
+.blok-icon-white-wrapper+.blok-icon-white-wrapper {
+    margin-right: 95px;
 }
 
 .blok-icon-white-position {
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
 }

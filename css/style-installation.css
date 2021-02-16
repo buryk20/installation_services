@@ -21,7 +21,8 @@
 .title-text-banner-CCTVinShop {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   max-width: 40%;
   margin: 0;
   padding: 20px;
@@ -82,9 +83,14 @@
   padding: 21px 29px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -92,9 +98,16 @@
 
 .blok-icon-gray-wrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .blok-icon-gray {
@@ -103,9 +116,16 @@
 }
 
 .blok-icon-gray-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .blok-icon-gray-wrapper + .blok-icon-gray-wrapper {
@@ -156,6 +176,7 @@
   padding: 8px 13px;
   max-width: 173px;
   text-align: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #159822;
   margin-left: auto;
@@ -232,7 +253,8 @@
   padding: 23px 13px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -240,9 +262,16 @@
 
 .blok-icon-white-wrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .blok-icon-white-wrapper + .blok-icon-white-wrapper {
@@ -250,9 +279,16 @@
 }
 
 .blok-icon-white-position {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   margin-bottom: 40px;
 }
 
@@ -265,15 +301,18 @@
 
 .complete-price-wrapper {
   max-width: 712px;
-  border: 1px solid #ffffff;
   border-radius: 8px;
-  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
 
 .complete-price-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -330,10 +369,12 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .green-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -342,10 +383,14 @@
 }
 
 .installation-work-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 7px;
   border-bottom: 1px solid #c4c4c4;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .installation-work-img {
@@ -355,10 +400,11 @@
 
 .installation-work-connection {
   max-width: 712px;
-  border: 1px solid #ffffff;
   border-radius: 8px;
-  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 13px 16px;
 }
 
@@ -375,8 +421,13 @@
 }
 
 .installation-work-connection-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   margin-bottom: 27px;
 }
 
@@ -388,9 +439,16 @@
 
 .scheme-wrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .scheme-wrapper > h4 {
@@ -406,3 +464,150 @@
   position: absolute;
   top: -10px;
 }
+
+.input-inlain {
+  border-bottom: 2px solid #159822;
+  max-width: 408px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.input-wrapper {
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.input-wrapper h2 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  padding-top: 60px;
+}
+
+.input-wrapper p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-wrapper-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.input-style {
+  border-radius: 8px;
+  border: 1px solid #8A8A8A;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #FFFFFF;
+  padding: 12px 0;
+  box-sizing: border-box;
+  min-width: 240px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8A8A8A;
+  text-align: left;
+  padding: 0 16px;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8A8A8A;
+  text-align: left;
+  padding: 0 16px;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8A8A8A;
+  text-align: left;
+  padding: 0 16px;
+}
+
+input[type="text"]::placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8A8A8A;
+  text-align: left;
+  padding: 0 16px;
+}
+
+input:active {
+  border: 1px solid #159822;
+}
+
+input:focus {
+  border: 1px solid #159822;
+}
+
+input:hover {
+  border: 1px solid #159822;
+}
+
+.button-input {
+  padding-bottom: 60px;
+  margin-bottom: 0;
+}
+
+.button-in {
+  color: #ffffff;
+  background-color: #159822;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  padding: 8px 13px;
+  max-width: 173px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #159822;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.button-wrapper {
+  position: relative;
+}
+
+.input-w + .input-w {
+  margin-left: 24px;
+}
+/*# sourceMappingURL=style-installation.css.map */

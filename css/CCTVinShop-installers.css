@@ -25,8 +25,7 @@ html {
 .title-text-banner-CCTVinShop {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   max-width: 40%;
   margin: 0;
   padding: 20px;
@@ -87,14 +86,9 @@ html {
   padding: 21px 29px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -102,16 +96,9 @@ html {
 
 .blok-icon-gray-wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blok-icon-gray {
@@ -120,18 +107,10 @@ html {
 }
 
 .blok-icon-gray-position {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .professional-installation-through-block-wrapper {
@@ -140,6 +119,8 @@ html {
   background-image: url("../CCTVinShop/img/adjuster-CCTV-shop.jpg");
   background-position: center;
   background-color: #859289;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .professional-installation-text-heading {
@@ -178,7 +159,6 @@ html {
   padding: 8px 13px;
   max-width: 173px;
   text-align: center;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #159822;
   margin-left: auto;
@@ -263,8 +243,7 @@ html {
   padding: 23px 13px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -272,26 +251,15 @@ html {
 
 .blok-icon-white-wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blok-icon-white-position {
   max-width: 1440px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 
@@ -305,17 +273,13 @@ html {
 .complete-price-wrapper {
   max-width: 712px;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
 
 .complete-price-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -376,8 +340,6 @@ html {
 }
 
 .green-elements {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -386,14 +348,10 @@ html {
 }
 
 .installation-work-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 7px;
   border-bottom: 1px solid #c4c4c4;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .installation-work-img {
@@ -404,10 +362,8 @@ html {
 .installation-work-connection {
   max-width: 712px;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
   padding: 13px 16px;
 }
 
@@ -420,13 +376,8 @@ html {
 }
 
 .installation-work-connection-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
   margin-bottom: 27px;
 }
 
@@ -438,16 +389,9 @@ html {
 
 .scheme-wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
 }
 
 .scheme-wrapper > h4 {
@@ -506,57 +450,19 @@ html {
 }
 
 .input-wrapper-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 40px;
 }
 
 .input-style {
   border-radius: 8px;
   border: 1px solid #8a8a8a;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background: #ffffff;
   padding: 12px 0;
   box-sizing: border-box;
   min-width: 240px;
-}
-
-input[type="text"]::-webkit-input-placeholder {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #000000;
-  text-align: center;
-  margin: 0;
-  font-size: 16px;
-  color: #8a8a8a;
-  text-align: left;
-  padding: 0 16px;
-}
-
-input[type="text"]:-ms-input-placeholder {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #000000;
-  text-align: center;
-  margin: 0;
-  font-size: 16px;
-  color: #8a8a8a;
-  text-align: left;
-  padding: 0 16px;
-}
-
-input[type="text"]::-ms-input-placeholder {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #000000;
-  text-align: center;
-  margin: 0;
-  font-size: 16px;
-  color: #8a8a8a;
-  text-align: left;
-  padding: 0 16px;
 }
 
 input[type="text"]::placeholder {
@@ -597,7 +503,6 @@ input:hover {
   padding: 8px 13px;
   max-width: 173px;
   text-align: center;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #159822;
   margin-left: auto;
@@ -614,13 +519,25 @@ input:hover {
   margin-left: 24px;
 }
 
+.complete-img-wrapper > img {
+  position: relative;
+}
+
 @media (max-width: 1460px) {
+  .scheme-wrapper {
+    padding: 0 16px;
+  }
+  .complete-img-wrapper {
+    text-align: center;
+  }
+  .professional-installation-text-position {
+    padding: 0 16px 139px 16px;
+  }
   .background-wrapper-position-CCTVinShop {
     padding: 0 16px;
   }
   .blok-icon-white-position {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 0 16px;
   }
   .blok-icon-white-wrapper {
@@ -630,19 +547,42 @@ input:hover {
     padding-left: 16px;
     margin-right: 16px;
   }
+  .blok-text {
+    padding: 0 16px;
+  }
   .key-areas-text-main {
     margin-bottom: 0;
   }
-  .green-elements {
-    display: none;
+}
+
+@media (max-width: 1050px) {
+  .input-wrapper-item {
+    margin-bottom: 0;
   }
-  .input-wrapper {
-    display: none;
+  .input-style {
+    min-width: 320px;
+    margin-bottom: 32px;
+  }
+  .input-w + .input-w {
+    margin-left: 0;
+  }
+  .input-wrapper-item {
+    display: inline-block;
   }
 }
 
 @media (max-width: 1024px) {
+  .green-elements {
+    width: 60%;
+  }
+  .blok-text-description {
+    padding: 0 16px;
+  }
+  .blok-text-complete > p {
+    padding: 0 16px;
+  }
   .blok-icon-gray-text-main {
+    padding: 0 16px;
     margin-bottom: 0;
   }
   .blok-icon-gray-wrapper {
@@ -651,14 +591,58 @@ input:hover {
 }
 
 @media (max-width: 900px) {
+  .input-wrapper p {
+    padding: 0 16px;
+  }
   .title-text-banner-CCTVinShop {
     max-width: 50%;
   }
 }
 
 @media (max-width: 730px) {
+  .complete-price-img-text-bolt {
+    font-size: 18px;
+    text-align: left;
+  }
+  .scheme-text {
+    position: relative;
+    top: auto;
+  }
+  .green-elements {
+    display: none;
+  }
+  .installation-work-connection {
+    margin-bottom: 20px;
+  }
+  .complete-price-wrapper {
+    margin-bottom: 20px;
+  }
+  .installation-work-connection-wrapper {
+    display: inline-block;
+  }
+  .complete-price-img-position {
+    display: flex;
+    left: auto;
+    top: -150px;
+  }
+  .complete-price-img {
+    justify-content: center;
+  }
+  .key-areas-wrapper {
+    margin-bottom: 170px;
+  }
   .title-text-banner-CCTVinShop {
     max-width: 60%;
+  }
+  .complete-price-img-text {
+    padding: 0 16px;
+    text-align: center;
+  }
+  .complete-price-img-text > p {
+    text-align: center;
+  }
+  .installation-price-wrapper {
+    padding: 0 16px;
   }
 }
 
@@ -666,18 +650,30 @@ input:hover {
   .title-text-banner-CCTVinShop {
     max-width: 70%;
   }
+  .blok-icon-gray-position {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 530px) {
+  .blok-icon-white-position {
+    justify-content: center;
+  }
   .title-text-banner-CCTVinShop {
     max-width: 80%;
+  }
+  .key-areas-text-main {
+    padding: 0 16px;
   }
 }
 
 @media (max-width: 460px) {
+  .complete-img-wrapper > img {
+    width: 49%;
+  }
   .title-text-banner-CCTVinShop {
     max-width: 100%;
     margin-right: 16px;
+    font-size: 28px;
   }
 }
-/*# sourceMappingURL=CCTVinShop-installers.css.map */

@@ -25,7 +25,8 @@ html {
 .title-text-banner-CCTVinShop {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   max-width: 40%;
   margin: 0;
   padding: 20px;
@@ -43,34 +44,34 @@ html {
   margin-right: auto;
 }
 
-.line-separator {
+.line-separator-CCTV-inst-servs {
   max-width: 100%;
   padding: 0 16px;
   border-top: 1px solid #d1d1d1;
   margin-bottom: 46px;
 }
 
-.wrapper-blok-icon-gray {
+.wrapper-blok-icon-gray-CCTV-inst-servs {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 85px;
 }
 
-.blok-text {
+.blok-text-CCTV-inst-servs {
   max-width: 721px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.blok-text > p {
+.blok-text-CCTV-inst-servs > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
   margin: 0 0 36px 0;
 }
 
-.blok-icon-gray-text-main {
+.blok-icon-gray-text-main-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -80,40 +81,60 @@ html {
   margin-top: 0;
 }
 
-.blok-icon-gray-text {
+.blok-icon-gray-text-CCTV-inst-servs {
   max-width: 262px;
   min-height: 80px;
   padding: 21px 29px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
-.blok-icon-gray-wrapper {
+.blok-icon-gray-wrapper-CCTV-inst-servs {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.blok-icon-gray {
+.blok-icon-gray-CCTV-inst-servs {
   position: absolute;
   top: -153px;
 }
 
-.blok-icon-gray-position {
+.blok-icon-gray-position-CCTV-inst-servs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
-.professional-installation-through-block-wrapper {
+.professional-installation-through-bl-wrap-CCTV-inst-servs {
   margin-bottom: 40px;
   padding-top: 139px;
   background-image: url("../CCTVinShop/img/adjuster-CCTV-shop.jpg");
@@ -123,7 +144,7 @@ html {
   background-size: cover;
 }
 
-.professional-installation-text-heading {
+.professional-installation-text-heading-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -133,7 +154,7 @@ html {
   margin-bottom: 40px;
 }
 
-.professional-installation-text-position > p {
+.professional-installation-text-position-CCTV-inst-servs > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -142,14 +163,14 @@ html {
   text-align: left;
 }
 
-.professional-installation-text-position {
+.professional-installation-text-position-CCTV-inst-servs {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 139px;
 }
 
-.btn-installation {
+.btn-installation-CCTV-inst-servs {
   color: #ffffff;
   background-color: #159822;
   border-radius: 6px;
@@ -159,6 +180,7 @@ html {
   padding: 8px 13px;
   max-width: 173px;
   text-align: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #159822;
   margin-left: auto;
@@ -168,22 +190,22 @@ html {
   margin: 0;
 }
 
-.btn-installation > a {
+.btn-installation-CCTV-inst-servs > a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.btn-installation:hover {
+.btn-installation-CCTV-inst-servs:hover {
   background-color: #287231;
 }
 
-.complete-wrapper {
+.complete-wrapper-CCTV-inst-servs {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.blok-text-description {
+.blok-text-description-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -193,7 +215,7 @@ html {
   margin-bottom: 40px;
 }
 
-.blok-text-complete > p {
+.blok-text-complete-CCTV-inst-servs > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -203,7 +225,7 @@ html {
   margin-right: auto;
 }
 
-.complete-wrapper > h4 {
+.complete-wrapper-CCTV-inst-servs > h4 {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -215,21 +237,21 @@ html {
   margin-bottom: 31px;
 }
 
-.complete-img-wrapper {
+.complete-img-wrapper-CCTV-inst-servs {
   max-width: 683px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
 }
 
-.key-areas-wrapper {
+.key-areas-wrapper-CCTV-inst-servs {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 79px;
 }
 
-.key-areas-text-main {
+.key-areas-text-main-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -238,64 +260,80 @@ html {
   margin-bottom: 194px;
 }
 
-.blok-icon-white-text {
+.blok-icon-white-text-CCTV-inst-servs {
   width: 212px;
   padding: 23px 13px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
-.blok-icon-white-wrapper {
+.blok-icon-white-wrapper-CCTV-inst-servs {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.blok-icon-white-position {
+.blok-icon-white-position-CCTV-inst-servs {
   max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.installation-price-wrapper {
+.installation-price-wrapper-CCTV-inst-servs {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
 }
 
-.complete-price-wrapper {
+.complete-price-wrapper-CCTV-inst-servs {
   max-width: 712px;
   border-radius: 8px;
-  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
 
-.complete-price-img {
+.complete-price-img-CCTV-inst-servs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
 
-.complete-price-img-position {
+.complete-price-img-position-CCTV-inst-servs {
   position: absolute;
   left: 27px;
   top: -50px;
 }
 
-.complete-price-img-text {
+.complete-price-img-text-CCTV-inst-servs {
   margin-bottom: 27px;
   padding-left: 256px;
 }
 
-.complete-price-img-text-bolt {
+.complete-price-img-text-bolt-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -305,41 +343,43 @@ html {
   text-align: left;
 }
 
-.complete-price-img-text-gray {
+.complete-price-img-text-gray-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #8a8a8a;
 }
 
-.complete-price {
+.complete-price-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: #159822;
 }
 
-.complete-price > span {
+.complete-price-CCTV-inst-servs > span {
   color: #000000;
 }
 
-.line-green {
+.line-green-CCTV-inst-servs {
   margin-bottom: 24px;
   border-top: 1px solid #159822;
 }
 
-.color-point {
+.color-point-CCTV-inst-servs {
   color: #159822;
 }
 
-.complete-price-wrapper > p {
+.complete-price-wrapper-CCTV-inst-servs > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
   padding-bottom: 16px;
 }
 
-.green-elements {
+.green-elements-CCTV-inst-servs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -347,27 +387,33 @@ html {
   padding-top: 17px;
 }
 
-.installation-work-wrapper {
+.installation-work-wrapper-CCTV-inst-servs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 7px;
   border-bottom: 1px solid #c4c4c4;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.installation-work-img {
+.installation-work-img-CCTV-inst-servs {
   margin-right: 40px;
   margin-bottom: 7px;
 }
 
-.installation-work-connection {
+.installation-work-connection-CCTV-inst-servs {
   max-width: 712px;
   border-radius: 8px;
-  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 13px 16px;
 }
 
-.list-style {
+.list-style-CCTV-inst-servs {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -375,26 +421,41 @@ html {
   text-align: left;
 }
 
-.installation-work-connection-wrapper {
+.installation-work-connection-wrapper-CCTV-inst-servs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   margin-bottom: 27px;
 }
 
-.installation-price-wrapper > p {
+.installation-price-wrapper-CCTV-inst-servs > p {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
-.scheme-wrapper {
+.scheme-wrapper-CCTV-inst-servs {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.scheme-wrapper > h4 {
+.scheme-wrapper-CCTV-inst-servs > h4 {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -403,11 +464,7 @@ html {
   max-width: 350px;
 }
 
-.scheme-wrapper > img {
-  width: 100%;
-}
-
-.scheme-text {
+.scheme-text-CCTV-inst-servs {
   position: absolute;
   top: -10px;
 }
@@ -450,19 +507,57 @@ html {
 }
 
 .input-wrapper-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 40px;
 }
 
 .input-style {
   border-radius: 8px;
   border: 1px solid #8a8a8a;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background: #ffffff;
   padding: 12px 0;
   box-sizing: border-box;
   min-width: 240px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8a8a8a;
+  text-align: left;
+  padding: 0 16px;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8a8a8a;
+  text-align: left;
+  padding: 0 16px;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: #8a8a8a;
+  text-align: left;
+  padding: 0 16px;
 }
 
 input[type="text"]::placeholder {
@@ -503,6 +598,7 @@ input:hover {
   padding: 8px 13px;
   max-width: 173px;
   text-align: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #159822;
   margin-left: auto;
@@ -519,43 +615,55 @@ input:hover {
   margin-left: 24px;
 }
 
-.complete-img-wrapper > img {
+.complete-img-wrapper-CCTV-inst-servs > img {
   position: relative;
 }
 
 @media (max-width: 1460px) {
-  .scheme-wrapper {
+  .scheme-wrapper-CCTV-inst-servs {
     padding: 0 16px;
   }
-  .complete-img-wrapper {
+  .complete-img-wrapper-CCTV-inst-servs {
     text-align: center;
   }
-  .professional-installation-text-position {
+  .professional-installation-text-position-CCTV-inst-servs {
     padding: 0 16px 139px 16px;
   }
   .background-wrapper-position-CCTVinShop {
     padding: 0 16px;
   }
-  .blok-icon-white-position {
-    flex-wrap: wrap;
+  .blok-icon-white-position-CCTV-inst-servs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     padding: 0 16px;
   }
-  .blok-icon-white-wrapper {
+  .blok-icon-white-wrapper-CCTV-inst-servs {
     margin-top: 194px;
   }
-  .blok-icon-gray-position {
+  .blok-icon-gray-position-CCTV-inst-servs {
     padding-left: 16px;
     margin-right: 16px;
   }
-  .blok-text {
+  .blok-text-CCTV-inst-servs {
     padding: 0 16px;
   }
-  .key-areas-text-main {
+  .key-areas-text-main-CCTV-inst-servs {
     margin-bottom: 0;
   }
 }
 
+@media (max-width: 1180px) {
+  .scheme-wrapper-CCTV-inst-servs > img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1050px) {
+  .complete-price-img-CCTV-inst-servs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .input-wrapper-item {
     margin-bottom: 0;
   }
@@ -572,26 +680,26 @@ input:hover {
 }
 
 @media (max-width: 1024px) {
-  .green-elements {
+  .green-elements-CCTV-inst-servs {
     width: 60%;
   }
-  .blok-text-description {
+  .blok-text-description-CCTV-inst-servs {
     padding: 0 16px;
   }
-  .blok-text-complete > p {
+  .blok-text-complete-CCTV-inst-servs > p {
     padding: 0 16px;
   }
-  .blok-icon-gray-text-main {
+  .blok-icon-gray-text-main-CCTV-inst-servs {
     padding: 0 16px;
     margin-bottom: 0;
   }
-  .blok-icon-gray-wrapper {
+  .blok-icon-gray-wrapper-CCTV-inst-servs {
     margin-top: 201px;
   }
 }
 
 @media (max-width: 900px) {
-  .input-wrapper p {
+  .input-wrapper-CCTV-inst-servs p {
     padding: 0 16px;
   }
   .title-text-banner-CCTVinShop {
@@ -600,48 +708,52 @@ input:hover {
 }
 
 @media (max-width: 730px) {
-  .complete-price-img-text-bolt {
+  .complete-price-img-text-bolt-CCTV-inst-servs {
     font-size: 18px;
     text-align: left;
   }
-  .scheme-text {
+  .scheme-text-CCTV-inst-servs {
     position: relative;
     top: auto;
   }
-  .green-elements {
+  .green-elements-CCTV-inst-servs {
     display: none;
   }
-  .installation-work-connection {
+  .installation-work-connection-CCTV-inst-servs {
     margin-bottom: 20px;
   }
-  .complete-price-wrapper {
+  .complete-price-wrapper-CCTV-inst-servs {
     margin-bottom: 20px;
   }
-  .installation-work-connection-wrapper {
+  .installation-work-connection-wrapper-CCTV-inst-servs {
     display: inline-block;
   }
-  .complete-price-img-position {
+  .complete-price-img-position-CCTV-inst-servs {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     left: auto;
     top: -150px;
   }
-  .complete-price-img {
-    justify-content: center;
+  .complete-price-im-CCTV-inst-servsg {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .key-areas-wrapper {
+  .key-areas-wrapper-CCTV-inst-servs {
     margin-bottom: 170px;
   }
   .title-text-banner-CCTVinShop {
     max-width: 60%;
   }
-  .complete-price-img-text {
+  .complete-price-img-text-CCTV-inst-servs {
     padding: 0 16px;
     text-align: center;
   }
-  .complete-price-img-text > p {
+  .complete-price-img-text-CCTV-inst-servs > p {
     text-align: center;
   }
-  .installation-price-wrapper {
+  .installation-price-wrapper-CCTV-inst-servs {
     padding: 0 16px;
   }
 }
@@ -650,25 +762,29 @@ input:hover {
   .title-text-banner-CCTVinShop {
     max-width: 70%;
   }
-  .blok-icon-gray-position {
-    justify-content: center;
+  .blok-icon-gray-position-CCTV-inst-servs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
 @media (max-width: 530px) {
-  .blok-icon-white-position {
-    justify-content: center;
+  .blok-icon-white-position-CCTV-inst-servs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .title-text-banner-CCTVinShop {
     max-width: 80%;
   }
-  .key-areas-text-main {
+  .key-areas-text-main-CCTV-inst-servs {
     padding: 0 16px;
   }
 }
 
 @media (max-width: 460px) {
-  .complete-img-wrapper > img {
+  .complete-img-wrapper-CCTV-inst-servs > img {
     width: 49%;
   }
   .title-text-banner-CCTVinShop {
@@ -677,3 +793,4 @@ input:hover {
     font-size: 28px;
   }
 }
+/*# sourceMappingURL=style-installation.css.map */

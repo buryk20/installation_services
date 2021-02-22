@@ -1,0 +1,5 @@
+@import "installation-mixin.scss";
+.background-wrapper-CCTVinOffice {
+    @include background-wrapper-banner-head;
+    background-image: url('../CCTVinOffice/img/imgBunnerOffice.jpg');
+}

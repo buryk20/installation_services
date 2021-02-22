@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../CCTVinShop/fonts/Roboto.ttf");
+}
+
+.background-wrapper-CCTVinOffice {
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  background-image: url("../CCTVinOffice/img/imgBunnerOffice.jpg");
+}
+/*# sourceMappingURL=CCTVinOffice.css.map */

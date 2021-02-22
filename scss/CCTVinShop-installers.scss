@@ -10,7 +10,7 @@ html {
 @import "installation-mixin.scss";
 .background-wrapper-CCTVinShop {
     @include background-wrapper-banner-head;
-    background-image: url("../CCTVinShop/img/CCTVinShop-banner-back.jpg");
+    background-image: url("../img/CCTVinShop-banner-back.jpg");
 }
 
 .title-text-banner-CCTVinShop {
@@ -78,7 +78,7 @@ html {
 .professional-installation-through-bl-wrap-CCTV-inst-servs {
     margin-bottom: 40px;
     padding-top: 139px;
-    background-image: url("../CCTVinShop/img/adjuster-CCTV-shop.jpg");
+    background-image: url("../img/adjuster-CCTV-shop.jpg");
     background-position: center;
     background-color: #859289;
     background-repeat: no-repeat;

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,qCAAqC;;;ADD9C,AAAA,gCAAgC,CAAC;EC2E7B,iBAAiB,EAAE,SAAS;EAC5B,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,QAAQ;EAClB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;EAC3B,aAAa,EAAE,IAAI;ED9EnB,gBAAgB,EAAE,8CAA8C;CACnE",
+    "sources": [
+        "../scss/CCTVinOffice.scss",
+        "../scss/installation-mixin.scss"
+    ],
+    "names": [],
+    "file": "CCTVinOffice.css"
+}

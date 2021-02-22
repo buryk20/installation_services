@@ -1,5 +1,23 @@
 @import "installation-mixin.scss";
 .background-wrapper-CCTVinOffice {
-    @include background-wrapper-banner-head;
-    background-image: url('../CCTVinOffice/img/imgBunnerOffice.jpg');
+  @include background-wrapper-banner-head;
+  background-image: url("../img/imgBunnerOffice.jpg");
+}
+
+.blok-icon-white-position-office {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 826px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+//mobile
+
+@media (max-width: 638px) {
+  .blok-icon-white-position-office {
+    justify-content: space-around;
+  }
 }

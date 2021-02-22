@@ -9,7 +9,7 @@ html {
 
 @font-face {
   font-family: Roboto;
-  src: url("../CCTVinShop/fonts/Roboto.ttf");
+  src: url("../fonts/Roboto.ttf");
 }
 
 .background-wrapper-CCTVinShop {
@@ -83,7 +83,7 @@ html {
 .blok-icon-gray-text-CCTV-inst-servs {
   max-width: 262px;
   min-height: 80px;
-  padding: 21px 29px;
+  padding: 10px 22px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
   box-sizing: border-box;
@@ -239,8 +239,14 @@ html {
 }
 
 .blok-icon-white-text-CCTV-inst-servs {
+  min-height: 66px;
   width: 212px;
-  padding: 23px 13px;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 13px;
   border: 1px solid #d1d1d1;
   border-radius: 8px;
   box-sizing: border-box;
@@ -690,7 +696,7 @@ input:hover {
 
 @font-face {
   font-family: Roboto;
-  src: url("../CCTVinShop/fonts/Roboto.ttf");
+  src: url("../fonts/Roboto.ttf");
 }
 
 .background-wrapper-CCTVinOffice {
@@ -700,5 +706,36 @@ input:hover {
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
-  background-image: url("../CCTVinOffice/img/imgBunnerOffice.jpg");
+  background-image: url("../img/imgBunnerOffice.jpg");
+}
+
+.blok-icon-white-position-office {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 826px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 638px) {
+  .blok-icon-white-position-office {
+    justify-content: space-around;
+  }
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+
+.background-wrapper-CCTVinEnterprises {
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  background-image: url("../img/Enterprises-CCTV-banner.jpg");
 }

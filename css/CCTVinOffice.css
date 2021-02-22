@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url("../CCTVinShop/fonts/Roboto.ttf");
+  src: url("../fonts/Roboto.ttf");
 }
 
 .background-wrapper-CCTVinOffice {
@@ -10,5 +10,21 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 60px;
-  background-image: url("../CCTVinOffice/img/imgBunnerOffice.jpg");
+  background-image: url("../img/imgBunnerOffice.jpg");
+}
+
+.blok-icon-white-position-office {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 826px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 638px) {
+  .blok-icon-white-position-office {
+    justify-content: space-around;
+  }
 }

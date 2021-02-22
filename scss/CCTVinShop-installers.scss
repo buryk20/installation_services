@@ -150,6 +150,9 @@ html {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .key-areas-wrapper-CCTV-inst-servs {

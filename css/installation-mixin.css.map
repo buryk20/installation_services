@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,qCAAqC",
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,0BAA0B",
     "sources": [
         "../scss/installation-mixin.scss"
     ],

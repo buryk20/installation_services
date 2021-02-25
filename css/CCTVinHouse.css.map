@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,0BAA0B;;;ADDnC,AAAA,qCAAqC,CAAC;EAClC,gBAAgB,EAAE,mCAAmC;CACxD",
+    "sources": [
+        "../scss/CCTVinHouse.scss",
+        "../scss/installation-mixin.scss"
+    ],
+    "names": [],
+    "file": "CCTVinHouse.css"
+}

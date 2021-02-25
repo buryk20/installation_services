@@ -757,3 +757,18 @@ input:hover {
   margin-bottom: 60px;
   background-image: url("../img/CCTVinWarehouse-banner.jpg");
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+
+.background-wrapper-CCTVinEnterprises {
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  background-image: url("../img/CCTV-apartmen-bunner.jpg");
+}

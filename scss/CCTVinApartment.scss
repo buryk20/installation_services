@@ -1,0 +1,5 @@
+@import "installation-mixin.scss";
+.background-wrapper-CCTVinEnterprises {
+  @include background-wrapper-banner-head;
+  background-image: url("../img/CCTV-apartmen-bunner.jpg");
+}

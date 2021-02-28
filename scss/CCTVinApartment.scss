@@ -1,5 +1,14 @@
 @import "installation-mixin.scss";
-.background-wrapper-CCTVinEnterprises {
+.background-wrapper-CCTVinApartment {
   @include background-wrapper-banner-head;
   background-image: url("../img/CCTV-apartmen-bunner.jpg");
+}
+
+.blok-icon-white-pos-CCTV-inst-servs-apart {
+  max-width: 1133px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }

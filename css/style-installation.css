@@ -758,7 +758,7 @@ input:hover {
   src: url("../fonts/Roboto.ttf");
 }
 
-.background-wrapper-CCTVinEnterprises {
+.background-wrapper-CCTVinApartment {
   background-repeat: no-repeat;
   height: 450px;
   position: relative;
@@ -768,11 +768,20 @@ input:hover {
   background-image: url("../img/CCTV-apartmen-bunner.jpg");
 }
 
+.blok-icon-white-pos-CCTV-inst-servs-apart {
+  max-width: 1133px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
 @font-face {
   font-family: Roboto;
   src: url("../fonts/Roboto.ttf");
 }
 
-.background-wrapper-CCTVinEnterprises {
+.background-wrapper-CCTVinHouse {
   background-image: url("../img/house-bunner-cctv.jpg");
 }

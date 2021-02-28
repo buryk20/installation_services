@@ -3,7 +3,7 @@
   src: url("../fonts/Roboto.ttf");
 }
 
-.background-wrapper-CCTVinEnterprises {
+.background-wrapper-CCTVinApartment {
   background-repeat: no-repeat;
   height: 450px;
   position: relative;
@@ -11,4 +11,13 @@
   background-position: center;
   margin-bottom: 60px;
   background-image: url("../img/CCTV-apartmen-bunner.jpg");
+}
+
+.blok-icon-white-pos-CCTV-inst-servs-apart {
+  max-width: 1133px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }

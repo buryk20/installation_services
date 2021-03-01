@@ -1,4 +1,36 @@
 @import "installation-mixin.scss";
 .background-wrapper-CCTVinHouse {
+    @include background-wrapper-banner-head;
     background-image: url("../img/house-bunner-cctv.jpg");
+}
+
+.blok-icon-gray-position-CCTV-inst-servs-house {
+    max-width: 1047px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.key-areas-wrapper-CCTV-inst-servs>.blok-icon-gray-position-CCTV-inst-servs-house {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1460px) {
+    .blok-icon-gray-position-CCTV-inst-servs-house {
+        padding-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 821px) {
+    .blok-icon-gray-position-CCTV-inst-servs-house {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px) {
+    .blok-icon-gray-position-CCTV-inst-servs-house {}
 }

@@ -83,13 +83,14 @@
 }
 
 @mixin box-img-grey {
-    max-width: 262px;
+    width: 262px;
     min-height: 80px;
     padding: 10px 22px;
     border: 1px solid #d1d1d1;
     border-radius: 8px;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 

@@ -4,5 +4,48 @@
 }
 
 .background-wrapper-CCTVinHouse {
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
   background-image: url("../img/house-bunner-cctv.jpg");
 }
+
+.blok-icon-gray-position-CCTV-inst-servs-house {
+  max-width: 1047px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.key-areas-wrapper-CCTV-inst-servs > .blok-icon-gray-position-CCTV-inst-servs-house {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1460px) {
+  .blok-icon-gray-position-CCTV-inst-servs-house {
+    padding-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 821px) {
+  .blok-icon-gray-position-CCTV-inst-servs-house {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=CCTVinHouse.css.map */
